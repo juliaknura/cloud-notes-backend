@@ -1,0 +1,8 @@
+services:
+    backend:
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      container_name: notesapp_backend
+      ports:
+        - "8080:8080"
